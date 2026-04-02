@@ -81,6 +81,9 @@ nav form .btn img{
     width: 20px;
     height: 14px;
 }
+.dropdown-menu{
+    background-color: var(--primary-color) !important;
+}
 
 
 
@@ -1005,7 +1008,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
 
 .info-item i {
   font-size: 20px;
-  color: #ff5c8a;
+  color: var(--primary-color);
   margin-top: 5px;
 }
 
@@ -1085,4 +1088,60 @@ transition: all 0.3s ease-in-out;
     width: 100%;
     float: none;
   }
+}
+
+
+
+/* about section css start here   */
+
+.about-us-section{
+    width: 100%;
+    padding: 40px 16px;
+}
+.about-us-content{
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    text-align: start;
+}
+.about-us-content h2{
+    font-weight: 700;
+}
+.about-us-image img{
+  border-radius: 20px;
+}
+
+.our-story-content, .our-mission-content {
+      width: 100%;
+      min-height: 280px;
+      padding: 20px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      border-radius: 20px;
+      transition: all 0.3s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background-color: #fff;
+}
+
+.our-story-content  h5{
+      font-weight: 700;
+}
+.our-mission-content  h5{
+      font-weight: 700;
+}
+
+.our-story-content:hover, .our-mission-content:hover {
+box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+transform: scale(1.03);
+
+}
+.vision-mission{
+  padding: 50px 0px;
+  background: #fafce373;
+}
+.about-us-content h2 span{
+  color: var(--primary-color);
 }
