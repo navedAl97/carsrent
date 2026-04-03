@@ -156,6 +156,19 @@ nav form .btn img{
     padding: 130px 0;
 
 }
+.faq-banner-section{
+    width: 100%;
+    height: 650px;
+    background-image: url('../assets/images/FAQ.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    padding: 130px 0;
+
+}
 
 .vehicles-banner-section{
     width: 100%;
@@ -243,6 +256,16 @@ nav form .btn img{
     width: 78%;
     
 }
+.faq-banner-content {
+   display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    width: 78%;
+    
+}
 .contact-banner-content {
    display: flex;
     flex-direction: column;
@@ -264,7 +287,19 @@ nav form .btn img{
     font-weight: 700;
     
 }
+.faq-banner-content h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    
+}
 .vehicles-banner-content p{
+
+   font-size: 18px;
+    color: #fff;
+    
+}
+.faq-banner-content p{
 
    font-size: 18px;
     color: #fff;
@@ -298,6 +333,10 @@ nav form .btn img{
     
 }
 .blog-banner-content span{
+     color: var(--primary-color);
+    
+}
+.faq-banner-content span{
      color: var(--primary-color);
     
 }
@@ -481,10 +520,27 @@ nav form .btn img{
   height: 350px !important;
   padding: 20px 0px  !important;
 }
+.faq-banner-content{
+  gap: 10px;
+  width: 100%;
+}
+.faq-banner-section{
+  height: 250px !important;
+  padding: 20px 0px  !important;
+}
 .about-banner-content h1{
     font-size: 20px;
     color: #fff;
     font-weight: 700;
+}
+.faq-banner-content h1{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.faq-banner-content p{
+    font-size: 14px;
+      color: #fff;
 }
 .about-banner-content p{
     font-size: 14px;
@@ -1385,4 +1441,57 @@ transform: scale(1.03);
 }
 .about-us-content h2 span{
   color: var(--primary-color);
+}
+
+
+.faq-section{
+  padding: 20px ;
+}
+
+.rental-terms {
+  padding: 50px 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.terms-list {
+  counter-reset: section;
+  padding-left: 20px;
+}
+
+.terms-list > li {
+  margin-bottom: 25px;
+}
+
+.terms-list h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.terms-list ul {
+  padding-left: 20px;
+}
+
+.terms-list ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.terms-list ul li::marker {
+  color: #b36b00; /* brown bullet color */
+}
+
+
+.rental-terms-content{
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.rental-terms-content h2{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }

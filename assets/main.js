@@ -28,3 +28,28 @@ $(document).ready(function () {
 });
 
 // Slick version 1.5.8
+
+
+
+
+const items = document.querySelectorAll(".accordion-item");
+
+items.forEach(item => {
+  const header = item.querySelector(".accordion-header");
+
+  header.addEventListener("click", () => {
+    const isActive = item.classList.contains("active");
+
+    // Close all
+    items.forEach(i => {
+      i.classList.remove("active");
+      i.querySelector(".icon").textContent = "+";
+    });
+
+    // Open current
+    if (!isActive) {
+      item.classList.add("active");
+      item.querySelector(".icon").textContent = "−";
+    }
+  });
+});
