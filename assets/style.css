@@ -1397,7 +1397,7 @@ transition: all 0.3s ease-in-out;
     align-items: start;
     flex-wrap: wrap;
     text-align: start;
-    padding: 50px 0px;
+    padding: 20px 0px;
 }
 .about-us-content h2{
     font-weight: 700;
