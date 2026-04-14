@@ -178,7 +178,20 @@ nav form .btn img{
 .vehicles-banner-section{
     width: 100%;
     height: 650px;
-    background-image: url('../assets/images/car-rental-banner2.png');
+     background-image: url('../assets/images/car-rental-banner2.png');
+     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 130px 0;
+
+}
+.transfer-banner{
+    width: 100%;
+    height: 650px;
+    background-image: url('../assets/images/transfer.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -249,6 +262,30 @@ nav form .btn img{
     gap: 20px;
     justify-content: start;
     align-items: start;
+    
+}
+.transfer-banner-content h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    
+}
+.transfer-banner-content span{
+    color: var(--primary-color);
+    
+}
+.transfer-banner-content p{
+    color: #ffffff;
+    
+}
+.transfer-banner-content {
+   display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start; 
+    align-items: start;
+    text-align: start;
+    width: 70%;
     
 }
 .vehicles-banner-content {
