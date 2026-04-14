@@ -1513,7 +1513,7 @@ transform: scale(1.03);
 }
 .service-image{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .service-section h5{
@@ -1523,7 +1523,7 @@ transform: scale(1.03);
 
 
 .excellence-image img{
-  width: 90%;
+  width: 100%;
 }
 .excellence-content{
   display: flex;
@@ -1532,7 +1532,7 @@ transform: scale(1.03);
   text-align: start;
   flex-direction: column;
   gap: 10px;
-  padding: 50px 0px;
+  padding: 0px 0px 50px 0px;
 }
 
 .excellence-content h5{
