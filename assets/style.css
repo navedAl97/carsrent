@@ -538,10 +538,7 @@ nav form .btn img{
 
     
 }
-.vehicles-banner-section{
-  height: 250px !important;
-  padding: 20px 0px  !important;
-}
+
 .vehicles-banner-content{
   gap: 10px !important  ;
 }
@@ -891,7 +888,17 @@ border-radius: 10px;
   .transportation-heading h2{
     font-size: 30px !important;
   }
-
+  .transfer-banner-content h1{
+    font-size: 30px !important;
+  }
+  .transfer-banner-content{
+    width: 100% !important;
+  }
+  .transfer-banner{
+    padding: 20px 0px  !important;
+    height: 350px;
+    align-items: start !important;
+  }
 }
 
 
